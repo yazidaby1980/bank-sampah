@@ -18,6 +18,7 @@ class CreateSetoranTable extends Migration
             $table->integer('user_id');
             $table->string('jenis');
             $table->string('kiloan');
+            $table->string('penyetor');
             $table->string('pendapatan')->nullable();
             $table->dateTime('tanggal_setor');
         });
